@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "game\\p_weapon.c",
               "ToolTip": "C:\\Users\\19177\\Desktop\\schoolProjects\\quake2-full-GameMod\\game\\p_weapon.c",
               "RelativeToolTip": "game\\p_weapon.c",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPICAAAAAAAAAAAhwAMDAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-04-01T15:10:33.195Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "game\\g_ai.c",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-04-01T15:06:52.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T15:06:52.379Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "win32\\q2.rc",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-04-01T15:05:49.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T15:05:49.15Z"
             }
           ]
         }

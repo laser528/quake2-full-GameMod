@@ -758,7 +758,7 @@ ROCKET
 
 void Weapon_RocketLauncher_Fire (edict_t *ent)
 {
-	vec3_t	offset, start;
+	vec3_t	offset, start, modifiedView; // Laser
 	vec3_t	forward, right;
 	int		damage;
 	float	damage_radius;
@@ -772,8 +772,10 @@ void Weapon_RocketLauncher_Fire (edict_t *ent)
 		damage *= 4;
 		radius_damage *= 4;
 	}
-
-	AngleVectors (ent->client->v_angle, forward, right, NULL);
+	modifiedView[YAW] = 0; // Laser
+	modifiedView[PITCH] = 45;
+	modifiedView[ROLL] = 0;
+	AngleVectors (modifiedView, forward, right, NULL);
 
 	VectorScale (forward, -2, ent->client->kick_origin);
 	ent->client->kick_angles[0] = -1;
