@@ -1,0 +1,20 @@
+l Studio
+.vs/
+*.suo
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+ipch/
+*.ipch
+
+# Build output
+Release/
+Debug/
+x64/
+x86/
+*.obj
+*.log
+*.pdb
+*.ilk
+*.exe
+*.dll
